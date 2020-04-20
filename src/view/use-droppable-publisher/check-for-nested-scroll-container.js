@@ -17,6 +17,7 @@ export default (scrollable: ?Element) => {
     return;
   }
 
+  /**
   warning(`
     Droppable: unsupported nested scroll container detected.
     A Droppable can only have one scroll parent (which can be itself)
@@ -24,4 +25,5 @@ export default (scrollable: ?Element) => {
 
     We hope to support nested scroll containers soon: https://github.com/atlassian/react-beautiful-dnd/issues/131
   `);
+  **/
 };
